@@ -10,4 +10,10 @@
     <ProjectReference Include="..\Rent_hose.DAL\Rent_house.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
