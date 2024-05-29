@@ -1,4 +1,4 @@
-﻿namespace Rent_house.models
+﻿namespace Rent_house.DAL.Entities
 {
     public class Country
     {

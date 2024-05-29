@@ -1,4 +1,4 @@
-﻿namespace Rent_house.models
+﻿namespace Rent_house.DAL.Entities
 {
     public class User
     {
@@ -12,12 +12,10 @@
 
         public string? Salt { get; set; }
 
-        public Status? Status { get ; set; }
+        public Status? Status { get ; set; } //по дефолту гость
 
-        public bool Active { get; set; }
-
+        public List<Favorites>? Favorites { get; set; } // избранные обьявления
         public List<House>? Houses { get; set; }
-
 
         public User()
         {

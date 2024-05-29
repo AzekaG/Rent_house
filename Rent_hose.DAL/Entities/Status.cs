@@ -1,14 +1,18 @@
-﻿namespace Rent_house.models
+﻿namespace Rent_house.DAL.Entities
 {
     public class Status
     {
         public int Id { get; set; }
         public string? Name { get; set; }
-        public List<User> User { get; set; }
+       
 
         public Status() 
         {
-            User = new List<User>();
+
+        }
+        public override string ToString()
+        {
+            return this.Name.ToString();
         }
     }
 }
